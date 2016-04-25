@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Tinos);
+
 html {
   font-size: 10px;
 }
@@ -22,20 +24,8 @@ a {
 .clear-list-style > li {
   margin-bottom: 1.6em;
 }
-.p-main {
-  zoom: 1;
-  margin-top: 48px;
-  margin-bottom: 36px;
-}
-.p-main:before,
-.p-main:after {
-  content: "";
-  display: table;
-}
-.p-main:after {
-  clear: both;
-}
 .p-header {
+  margin-top: 48px;
   position: relative;
   text-align: center;
 }
@@ -59,10 +49,23 @@ a {
   margin-bottom: 10px;
 }
 .p-subtitle {
-  font-size: 16px;
   font-size: 1.6rem;
   font-family: 'Tinos', serif;
   margin-bottom: 52px;
+  text-transform: uppercase;
+}
+.p-main {
+  zoom: 1;
+  margin-top: 48px;
+  margin-bottom: 36px;
+}
+.p-main:before,
+.p-main:after {
+  content: "";
+  display: table;
+}
+.p-main:after {
+  clear: both;
 }
 .p-content {
   position: relative;
@@ -88,21 +91,32 @@ a {
   background: #fff7f4;
   padding: 0 1em;
 }
-.p-copyright {
+footer {
   text-align: right;
   font-size: 12px;
   font-size: 1.2rem;
   margin-bottom: 72px;
 }
-.p-copyright ul {
+footer ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
-.p-copyright li {
+footer li {
   display: inline-block;
-  margin-left: 8px;
+  font-size: 1.5rem;
+  margin: 1rem;
+  vertical-align: middle;
 }
+footer li a {
+  opacity: 0.5;
+  transition-duration: .3s;
+}
+footer li a:hover {
+  opacity: 1;
+}
+
 @media all and (max-width: 600px) {
   .container {
     width: 100%;
@@ -114,7 +128,7 @@ a {
     font-weight: normal;
   }
   .p-main,
-  .p-copyright {
+  footer {
     padding: 0 24px;
   }
 }
