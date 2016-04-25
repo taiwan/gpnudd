@@ -1,0 +1,15 @@
+## Authors
+
+```
+ project  : ghostisland.github.io
+ repo age : 1 year, 1 month
+ active   : 4 days
+ commits  : 17
+ files    : 9
+ authors  :
+    13  Po-Ying Chen    76.5%
+     1  Juanito Fatas   5.9%
+     1  Po-chiang Chao  5.9%
+     1  mrmoneyc        5.9%
+     1  timrau          5.9%
+```
